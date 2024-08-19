@@ -52,7 +52,7 @@ body {
     gap: 12px;
 }
 
-.content_state {
+.content__state {
     background-color: var(--Yellow);
     width: 73px;
     height: 26px;
@@ -64,7 +64,7 @@ body {
     color: var(--Gray-950);
 }
 
-.content_date {
+.content__date {
     font-size: 12px;
     font-weight: 500;
     color: var(--Gray-950);
