@@ -70,43 +70,43 @@ body {
     color: var(--Gray-950);
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    gap: 12px
-}
-
-.main-content__title {
+.content__title {
     font-size: 20px;
     font-weight: 800;
     color: var(--Gray-950);
+    transition: .5s;
 }
 
-.main-content__paragraph {
+.content__title:hover {
+    cursor: pointer;
+    color: var(--Yellow);
+    transition: .5s;
+}
+
+.content__paragraph {
     line-height: 150%;
     font-size: 16px;
     color: var(--Gray-500);
     font-weight: 500;
 }
 
-.avatar {
-    display: flex;
-    gap: 12px;
+.content--avatar {
+    flex-direction: row;
     align-items: center;
     font-weight: 800;
 }
 
-.avatar__img {
+.content__img {
     width: 32px;
 }
 
-.avatar__name {
+.content__name {
     font-size: 14px;
 }
 
 @media (max-width: 375px) {
 
-    .main-content__paragraph {
+    .content__paragraph {
         font-size: 14px;
     }
 
