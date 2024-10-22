@@ -41,6 +41,7 @@ body {
 
 .illustration__img {
     max-width: 100%;
+    width: 384px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
