@@ -37,6 +37,7 @@ body {
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 8px 7px;
+    animation: lower 1s ease;
 }
 
 .illustration__img {
@@ -110,6 +111,26 @@ body {
 
     .content__paragraph {
         font-size: 14px;
+    }
+
+}
+
+@keyframes lower {
+
+    0% {
+
+        translate: 0 -200%;
+
+    }
+
+    90% {
+        translate: 0 15%;
+    }
+
+    100% {
+
+        translate: 0;
+
     }
 
 }
